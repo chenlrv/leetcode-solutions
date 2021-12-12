@@ -1,4 +1,4 @@
-package com.lc.solutions.binarysearch;
+package com.lc.solutions.twopointers;
 
 import java.util.Arrays;
 
@@ -62,6 +62,7 @@ public class SortedSquares
 
     public static void main(String[] args)
     {
+        System.out.println(Arrays.toString(sortedSquares(new int[]{-4, -1, 0, 3, 10})));
         System.out.println(Arrays.toString(sortedSquares(new int[]{-5, -3, -2, -1})));
     }
 }
