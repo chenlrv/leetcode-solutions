@@ -45,23 +45,10 @@ def remove_duplicates(nums):
     return new_arr_index
 
 
-# {0,0,1,1,2
-#  Input: nums = [0,0,1,1,1,1,2,3,3]
-#    Output: 7, nums = [0,0,1,1,2,3,3,_,_]
-#
-# i = 0 current = 0 value = 0 count = 2
-# i = 2 current = 1, value = 1 duplicates = 1
-# i = 3 duplicates = 2
-# i = 4 duplicates = 3 new_arr_index = 4
-# i = 5 duplicates = 4
-# i = 6 current = 2 nums[4] = 2  duplicates = 1 value = 2
-# i =7
-
 def main():
     nums = [0, 0, 1, 1, 1, 1, 2, 3, 3]
     k = remove_duplicates(nums)
     print(nums[:k])
-
 
 
 if __name__ == "__main__":
